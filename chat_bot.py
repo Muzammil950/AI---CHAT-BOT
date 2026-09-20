@@ -17,6 +17,12 @@ def chatbot_response(user_input):
     
     elif "bye" in user_input or "exit" in user_input:
         return "Good bye ! have a nice day 😊"
+
+    elif "where are you from" in user_input:
+        return "I live inside this Python program! 🤖"
+
+    elif "what is your favorite language" in user_input:
+        return "Python, of course! 🐍"
     
     elif "time" in user_input:
         current_time = datetime.datetime.now().strftime("%H:%M")
